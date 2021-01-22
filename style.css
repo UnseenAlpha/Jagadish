@@ -2,6 +2,7 @@ body{
     margin:0;
     padding-top: 800px;
     background: linear-gradient(#e65a53 0%, #339ff2 100%);
+    text-align: center;
 }
 #img1{
     width: 175px;
@@ -45,7 +46,7 @@ p{
 .menu{
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     z-index: 10;
@@ -53,7 +54,7 @@ p{
 }
 .links{
     float: left;
-    color: white;
+    color: deepskyblue;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
@@ -69,4 +70,16 @@ p{
     background-color: black;
     width: 70px;
     margin: 8px auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: firebrick;
+}
+#writings{
+   background-color: white;
 }
